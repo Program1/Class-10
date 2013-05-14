@@ -113,13 +113,71 @@ body {
 
 .topHalf {
     background: cyan;
-    padding: 23px;
+    padding: 1px 0.3em;
+}
+
+/*HEADER*/
+
+header {
+    padding-bottom: 0.5em;
+}
+
+#movileNav {
+    float: right;
+    margin: 1em 1em 0 0;
+    background-color: #666;
+    border: 1px solid #000;
+    border-radius: 10%;
+    padding: 0.7em;
+    font-size: 1.4em;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    #mobileNav {display: none;}
+    #mainNav nav {
+        height: auto;
+        overflow: visible;
+    }
+}
+
+header h1 {margin: 0;}
+
+#mainNav nav{
+    overflow: hidden;
+    -webkit-transition: height 0.5s linear;
+    -moz-transition: height 0.5s linear;
+    -0-transition: height 0.5s linear;
+    -ms-transition: height 0.5s linear;
+    transition: height 0.5s linear;
+}
+
+#mainNav:target nav {
+    height: 125px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    background: rgba(0,0,0,0.4);
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border-top: 1px solid black;
+}
+
+header nav ul li:last-child {
+    border-bottom: 1px solid black;
 }
 
 /* FEATURE AREA*/
 
 .middle {
     background: blue;
+    padding-top: 2em;
 }
 
 .box {
@@ -214,7 +272,75 @@ body {
 }
 
 
+/*FOOTER*/
 
+.bottom {
+    background: #414141;
+}
+
+footer { 
+    position: relative;
+    color: #f5f5f5;
+    border-top: 1px
+}
+
+footer .ampersand {
+    width: 1.1em;
+    height: 1.1em;
+    font-size: 1.8em;
+    border-radius: 100%;
+    background: #f5f5f5;
+    color: #414141;
+    text-align: center;
+    line-height: 1;
+    padding: 0.3em;
+    text-indent: 0.1em;
+    position: absolute;
+    top: 0;
+    top: -0.7em;
+    left: 50%;
+    margin-left: -0.7em;
+    box-shadow: -0.7em;
+    box-shadow: 0 -2 5px rgba (0,0,0,0.5)
+
+}
+
+/*SOCIAL LINKS */
+
+.socialLinks ul {
+    margin: 0;
+    padding: 2em 0;
+}
+
+.socialLinks ul li {
+    width: 32%;
+    float: left;
+    background: rgba(0,0,0,4);
+    list-style: none;
+    padding: 2em;
+
+}
+
+.socialLinks ul li:nth-child(2n) {
+    margin: 0 2%;
+}
+
+/*FOOTER MENU*/
+
+footer nav h5 {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #f5f5f5;
+    margin: 1em 0;
+}
+
+footer nav ul {
+    background: rgba(0,0,0,4);
+    padding: 1em 2em;
+    font-size: 0.2em;
+    margin: 0.2 0;
+}
 
 
 /* ==========================================================================
