@@ -111,19 +111,107 @@ body {
     padding: 0 1em;
 }
 
+.topHalf {
+    background: cyan;
+    padding: 23px;
+}
+
+/* FEATURE AREA*/
+
+.middle {
+    background: blue;
+}
+
 .box {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
 }
 
+.feature {
+    position: relative;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.feature h2 {
+    position: absolute;
+    top: 30%;
+    background: rgba(0,0,0,0.3);
+    padding: 0.5em; 
+    font-size: 2.6em;
+    color: #fff;
+    width: 150px;
+
+}
+
+/*CONTENT AREA */
+
+.middle {
+    background: relative;
+    padding-bottom: 2em;
+}
+
+.main {
+    position: relative;
+    padding-top: 2em;
+}
+
+.main h3 {
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    font-size: 2.2em;
+    background: #fff;
+    padding: 0.5em;
+    line-height: 1;
+}
+
+.main p {
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
 
 
+/*SIDEBAR*/
 
+.sidebar h4 {
+    color: white;
+    background: orange;
+    padding: 0.5em;
+    margin: 1em 0 0;
+    font-size: 1.8em;
+    font-weight: lighter;
+    line-height: 1;
+}
 
+.sidebar ol {
+    margin: 0;
+    padding: 1em 2em;
+    border: 1px solid orange;
+    border-top: 0;
+    background: white;
+}
 
+.sidebar ol li {
+    list-style: disc;
+    line-style-position: inside;
+    font-size: 1.4em
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0.5em 0;
 
+}
 
+.sidebar ol li span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-left: 1
+}
 
 
 
